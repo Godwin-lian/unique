@@ -51,6 +51,8 @@
 </template>
 
 <script setup>
+import Hero from './Hero.vue';
+
 const testimonials = [
   {
     text: "Unix is a game-changer. The variety of products is astonishing, and I've saved a lot of money. Highly recommended!",
