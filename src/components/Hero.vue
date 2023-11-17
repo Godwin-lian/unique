@@ -29,12 +29,13 @@
             <div class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
               <div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                 <h3 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                  Beli kado buat 
+                  Beli souvenir buat 
+                  <br>
                   <span class="text-5xl text-bold text-red-500">{{ displayText.join('') }}? </span>
                   <br>
                   hanya di Unix
                 </h3>
-                <p class="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">Jangan lewatkan penawaran spesial kami untuk kado-kado berkualitas dengan harga terjangkau. Mulai dari <b class="text-green-500">50 ribu</b> rupiah, Anda bisa memberikan kebahagiaan kepada orang yang Anda cintai.</p>
+                <p class="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">Jangan lewatkan penawaran istimewa dari kami untuk souvenir berkualitas yang kami produksi sendiri dengan harga terjangkau. Mulai dari <b class="text-green-500">50 ribu</b> rupiah, anda sudah bisa mendapatkan produk istimewa dari vendor souvenir tangan pertama dan berbagi kebahagiaan kepada orang yang anda cintai ataupun rekan bisnis.</p>
               </div>
               <Carousels/>
 
@@ -62,7 +63,7 @@ const props = defineProps({
   },
   words: {
     type: Array,
-    default: () => ["Pacar", "Teman", "Keluarga", "Sahabat"],
+    default: () => ["Pacar", "Teman", "Acara Kantor", "Acara Nikahan", "Keluarga", "Sahabat"],
   },
 });
 
