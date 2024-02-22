@@ -46,7 +46,7 @@
     name: 'Basic Tee',
     description: 'Tampil keren dengan kaus klasik kami. Cocok untuk segala kesempatan dan padu padan yang pas dengan segalanya.',
     options: 'Merah, Coklat, Hijau Gelap, Putih, Hitam, Navy, Army',
-    imageSrc: '/src/assets/img/kaus-hijau.png',
+    imageSrc: '../assets/img/kaus-hijau.png',
     imageAlt: 'Bagian depan kaos hitam polos.',
   },
   {
@@ -54,7 +54,7 @@
     name: 'Mug and Bottle',
     description: 'Tetap terhidrasi dan kafeinasi dengan kombinasi Mug dan Botol kami. Desain ramping dalam warna hijau gelap menambah sentuhan keanggunan pada rutinitas harian Anda.',
     options: 'Hijau Gelap, Putih, Hitam, Cream',
-    imageSrc: '/src/assets/img/mug-and-bottle.jpeg',
+    imageSrc: '../assets/img/mug-and-bottle.jpeg',
     imageAlt: 'Set mug dan botol warna hijau gelap.',
   },
   {
@@ -62,7 +62,7 @@
     name: 'Topi, Ransel, Tote Bag',
     description: 'Adopsi gaya hidup CEO dengan set Topi, Ransel, dan Tote Bag kami. Semuanya dalam warna hitam klasik, sempurna untuk rutinitas harian Anda.',
     options: 'Hitam, Putih, Cream, Navy',
-    imageSrc: '/src/assets/img/cap-backpack-totebag.jpeg',
+    imageSrc: '../assets/img/cap-backpack-totebag.jpeg',
     imageAlt: 'Set topi, ransel, dan tote bag warna hitam.',
   },
   {
@@ -70,7 +70,7 @@
     name: 'Ransel Kecil',
     description: 'Tunjukkan gaya Anda dengan Ransel Kecil kami yang tersedia dalam warna Hijau Gelap, Putih, Hitam, Navy, dan Army. Kecil dan trendy, ini adalah aksesori yang wajib dimiliki.',
     options: 'Hijau Gelap, Putih, Hitam, Navy, Army',
-    imageSrc: '/src/assets/img/ransel-kecil.jpeg',
+    imageSrc: '../assets/img/ransel-kecil.jpeg',
     imageAlt: 'Ransel kecil dalam berbagai warna.',
   },
   {
@@ -78,7 +78,7 @@
     name: 'Pulpen Custom',
     description: 'Buat pernyataan dengan Pulpen Custom kami yang elegan dalam warna hitam. Aksesori yang sempurna untuk ruang kerja Anda atau sebagai hadiah yang berpikiran.',
     options: 'Hitam, Putih',
-    imageSrc: '/src/assets/img/pulpen.png',
+    imageSrc: '../assets/img/pulpen.png',
     imageAlt: 'Pulpen custom dalam warna hitam.',
   },  
   {
@@ -86,7 +86,7 @@
     name: 'Notebook Elegan',
     description: 'Catat ide-ide brilian Anda dalam Notebook Elegan kami. Desainnya yang anggun membuatnya sempurna untuk catatan sehari-hari atau hadiah spesial.',
     options: 'Berbagai pilihan desain',
-    imageSrc: '/src/assets/img/note.png',
+    imageSrc: '../assets/img/note.png',
     imageAlt: 'Notebook elegan dengan berbagai desain.',
   },
   {
@@ -94,7 +94,7 @@
     name: 'Payung',
     description: 'Lindungi diri Anda dari hujan dengan Payung Anti-Hujan kami. Desain yang kokoh dan tahan angin untuk kenyamanan maksimal.',
     options: 'Berbagai warna',
-    imageSrc: '/src/assets/img/payung.png',
+    imageSrc: '../assets/img/payung.png',
     imageAlt: 'Payung anti-hujan dengan berbagai warna.',
   },
   {
@@ -102,7 +102,7 @@
     name: 'Bingkai Foto',
     description: 'Hiaslah kenangan Anda dengan Bingkai Foto kami. Desain elegan dan berkualitas tinggi untuk memamerkan momen-momen istimewa dalam gaya yang unik.',
     options: 'Berbagai ukuran dan warna',
-    imageSrc: '/src/assets/img/bingkai-foto.png',
+    imageSrc: '../assets/img/bingkai-foto.png',
     imageAlt: 'Bingkai foto dengan berbagai ukuran dan warna.',
 }
 
