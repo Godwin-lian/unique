@@ -55,25 +55,25 @@ import Hero from './Hero.vue';
 
 const testimonials = [
   {
-    text: "Wah, gifting dari Unix tuh bikin hati aku meleleh banget! Hampersnya keren abis, banyaaak pilihannya. Gak nyesel deh pesen di sini!, Recommended banget...",
+    text: "Wah, gifting dari BeliKado tuh bikin hati aku meleleh banget! Hampersnya keren abis, banyaaak pilihannya. Gak nyesel deh pesen di sini!, Recommended banget...",
     image: "/src/assets/img/expressive-asian-girl-posing-indoor_344912-1234.avif",
     author: "Dewi Kartini",
     username: "Dewi",
   },
   {
-    text: "Unix ini gokil banget, gifting dan hampersnya oke punya! Banyak pilihan barang unik, pokoknya recommended buat yang suka kado kreatif!",
+    text: "BeliKado ini gokil banget, gifting dan hampersnya oke punya! Banyak pilihan barang unik, pokoknya recommended buat yang suka kado kreatif!",
     image: "/src/assets/img/medium-shot-smiley-man-portrait_23-2149455852.avif",
     author: "Ibrahim Surya",
     username: "Ibrahim",
   },
   {
-    text: "Wuih, Unix emang juara deh buat hampers. Isinya bervariasi, bingung mau pilih yang mana. Gak nyesel deh pesen di sini, bawaannya seneng terus!",
+    text: "Wuih, BeliKado emang juara deh buat hampers. Isinya bervariasi, bingung mau pilih yang mana. Gak nyesel deh pesen di sini, bawaannya seneng terus!",
     image: "/src/assets/img/closeup-glamour-attractive-modern-asian-blond-girl-wear-wireless-white-earphones-smiling-pleased-lis_1258-57836.avif",
     author: "Larissa Putri",
     username: "Larissa",
   },
   {
-    text: "Unix itu joss abis! Gifting dan hampersnya bikin hati meleleh, pilihan barangnya keren. Gak nyangka bisa dapetin kado sehebat ini, makasih Unix!",
+    text: "BeliKado itu joss abis! Gifting dan hampersnya bikin hati meleleh, pilihan barangnya keren. Gak nyangka bisa dapetin kado sehebat ini, makasih BeliKado!",
     image: "/src/assets/img/closeup-portrait-smiling-handsome-asian-man_1262-3728.avif",
     author: "Aditya Pratama",
     username: "Aditya",

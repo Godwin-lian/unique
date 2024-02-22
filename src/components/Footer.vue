@@ -3,7 +3,7 @@
       <h2 id="footer-heading" class="sr-only">Footer</h2>
       <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-10">
         <div class="mt-16 flex justify-between border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
-          <p class="text-xs leading-5 text-gray-500">&copy; 2023 Unix, Inc. All rights reserved.</p>
+          <p class="text-xs leading-5 text-gray-500">&copy; 2023 BeliKado, Inc. All rights reserved.</p>
             <div class="flex space-x-6 pr-10">
             <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-gray-400 hover:text-gray-500">
               <span class="sr-only">{{ item.name }}</span>
