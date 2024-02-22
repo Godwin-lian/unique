@@ -1,11 +1,11 @@
 <!-- header section start -->
 <template>
-    <header class="sticky bg-slate-100 bg-opacity-60 text-slate-900 inset-x-0 top-0 z-50">
-      <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <header class="sticky bg-slate-50 bg-opacity-60 text-slate-900 inset-x-0 top-0 z-50">
+      <nav class="mx-auto flex max-w-7xl items-center justify-between lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
-          <a href="#" class="-m-1.5 p-1.5">
-            <span class="sr-only">Your Company</span>
-            <img class="h-8 w-auto" src="../assets/img/Unixue-logo.png" alt="unix-logo" />
+          <a href="#" class="-m-1.5 p-4">
+            <span class="sr-only">Unix</span>
+            <img class="h-14 w-auto" src="../assets/img/Unixue-logo.png" alt="unix-logo" />
           </a>
         </div>
         <div class="flex lg:hidden">
@@ -49,12 +49,13 @@ import { Dialog, DialogPanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
 const navigation = [
-  { name: 'Features', href: '#feature' },
-  { name: 'Clustering', href: '#clustering' },
-  { name: 'Testimonials', href: '#testimonials' },
-  { name: 'Our Product', href: '#product' },
+  { name: 'Tentang Kami', href: '#feature' },
+  { name: 'Tipe Paket', href: '#clustering' },
+  { name: 'Testimoni', href: '#testimonials' },
+  { name: 'Produk Kami', href: '#product' },
   { name: 'FAQ', href: '#FAQ' },
-]
+];
+
 
 const mobileMenuOpen = ref(false)
 </script>

@@ -29,7 +29,7 @@
         
 
 <!-- custom part -->
-<div class="mt-20 flex justify-center">
+<div class="lg:mt-20 xs:mt-10 flex justify-center">
           <div class="flex justify-center gap-y-16 sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 xl:-mx-4">
             <div :class="customTier.class" :key="customTier.id" class="hover:scale-[1.05] hover:border-slate-700 lg:w-8/12 sm:w-10/12 transition rounded-xl mx-2 lg:px-4">
             <h3 :id="customTier.id" class="pt-4  text-center text-base font-semibold leading-7 text-gray-900">{{ customTier.name }}</h3>

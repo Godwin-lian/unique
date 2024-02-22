@@ -1,5 +1,5 @@
 <template>
-      <div id="FAQ" class="mx-auto max-w-8xl px-6 py-24 sm:py-32 lg:px-8 lg:py-20">
+      <div id="FAQ" class="mx-auto max-w-8xl px-6 xs:py-10 sm:py-32 lg:px-8 lg:py-20">
         <div class="mx-auto max-w-6xl divide-y divide-gray-900/10">
           <h2 class="text-2xl font-bold leading-10 tracking-tight text-gray-900">Frequently asked questions</h2>
           <dl class="mt-10 space-y-6 divide-y divide-gray-900/10">

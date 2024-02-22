@@ -23,8 +23,8 @@
           </div>
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-xl sm:text-center">
-              <h2 class="text-lg font-semibold leading-8 tracking-tight text-sky-600">Testimonials</h2>
-              <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Hear what our Unix users have to say</p>
+              <h2 class="text-lg font-semibold leading-8 tracking-tight text-sky-600">Testimoni</h2>
+              <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Lihat cerita dari pelanggan <span class="text-blue-800">Beli</span><span class="text-blue-500">Kado</span> </p>
             </div>
 
             <div class="mx-auto mt-16 grid max-w-2xl gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4  ">
@@ -55,30 +55,31 @@ import Hero from './Hero.vue';
 
 const testimonials = [
   {
-    text: "Unix is a game-changer. The variety of products is astonishing, and I've saved a lot of money. Highly recommended!",
-    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    text: "Wah, gifting dari Unix tuh bikin hati aku meleleh banget! Hampersnya keren abis, banyaaak pilihannya. Gak nyesel deh pesen di sini!, Recommended banget...",
+    image: "/src/assets/img/expressive-asian-girl-posing-indoor_344912-1234.avif",
     author: "Dewi Kartini",
     username: "Dewi",
   },
   {
-    text: "Unix is a game-changer. The variety of products is astonishing, and I've saved a lot of money. Highly recommended!",
-    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    author: "Dewi Kartini",
-    username: "Dewi",
+    text: "Unix ini gokil banget, gifting dan hampersnya oke punya! Banyak pilihan barang unik, pokoknya recommended buat yang suka kado kreatif!",
+    image: "/src/assets/img/medium-shot-smiley-man-portrait_23-2149455852.avif",
+    author: "Ibrahim Surya",
+    username: "Ibrahim",
   },
   {
-    text: "Unix is a game-changer. The variety of products is astonishing, and I've saved a lot of money. Highly recommended!",
-    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    author: "Dewi Kartini",
-    username: "Dewi",
+    text: "Wuih, Unix emang juara deh buat hampers. Isinya bervariasi, bingung mau pilih yang mana. Gak nyesel deh pesen di sini, bawaannya seneng terus!",
+    image: "/src/assets/img/closeup-glamour-attractive-modern-asian-blond-girl-wear-wireless-white-earphones-smiling-pleased-lis_1258-57836.avif",
+    author: "Larissa Putri",
+    username: "Larissa",
   },
   {
-    text: "Unix is a game-changer. The variety of products is astonishing, and I've saved a lot of money. Highly recommended!",
-    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    author: "Dewi Kartini",
-    username: "Dewi",
+    text: "Unix itu joss abis! Gifting dan hampersnya bikin hati meleleh, pilihan barangnya keren. Gak nyangka bisa dapetin kado sehebat ini, makasih Unix!",
+    image: "/src/assets/img/closeup-portrait-smiling-handsome-asian-man_1262-3728.avif",
+    author: "Aditya Pratama",
+    username: "Aditya",
   },
   // Add more testimonials as needed
 ];
+
 </script>
 
