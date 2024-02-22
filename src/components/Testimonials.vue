@@ -29,20 +29,71 @@
 
             <div class="mx-auto mt-16 grid max-w-2xl gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4  ">
 
-                <div v-for="(item, index) in testimonials" :key="index" class="hover:-translate-y-2 duration-300 transition space-y-8 xl:row-span-2">
-                  <figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
-                    <blockquote class="text-gray-900">
-                      <p>{{ item.text }}</p>
-                    </blockquote>
-                    <figcaption class="mt-6 flex items-center gap-x-4">
-                      <img loading="lazy" class="h-10 w-10 rounded-full bg-gray-50" :src="item.image" :alt="item.author">
-                      <div>
-                        <div class="font-semibold">{{ item.author }}</div>
-                        <div class="text-gray-600">@{{ item.username }}</div>
-                      </div>
-                    </figcaption>
-                  </figure>
-                </div>
+              <div class="hover:-translate-y-2 duration-300 transition space-y-8 xl:row-span-2">
+  <figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
+    <blockquote class="text-gray-900">
+      <p>Wah, gifting dari BeliKado tuh bikin hati aku meleleh banget! Hampersnya keren abis, banyaaak pilihannya. Gak nyesel deh pesen di sini!, Recommended banget...</p>
+    </blockquote>
+    <figcaption class="mt-6 flex items-center gap-x-4">
+      <img loading="lazy" class="h-10 w-10 rounded-full bg-gray-50" src="/src/assets/img/expressive-asian-girl-posing-indoor_344912-1234.avif" alt="Dewi Kartini">
+      <div>
+        <div class="font-semibold">Dewi Kartini</div>
+        <div class="text-gray-600">@Dewi</div>
+      </div>
+    </figcaption>
+  </figure>
+</div>
+
+<div class="hover:-translate-y-2 duration-300 transition space-y-8 xl:row-span-2">
+  <figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
+    <blockquote class="text-gray-900">
+      <p>BeliKado ini gokil banget, gifting dan hampersnya oke punya! Banyak pilihan barang unik, pokoknya recommended buat yang suka kado kreatif!</p>
+    </blockquote>
+    <figcaption class="mt-6 flex items-center gap-x-4">
+      <img loading="lazy" class="h-10 w-10 rounded-full bg-gray-50" src="/src/assets/img/medium-shot-smiley-man-portrait_23-2149455852.avif" alt="Ibrahim Surya">
+      <div>
+        <div class="font-semibold">Ibrahim Surya</div>
+        <div class="text-gray-600">@Ibrahim</div>
+      </div>
+    </figcaption>
+  </figure>
+</div>
+
+
+<div class="hover:-translate-y-2 duration-300 transition space-y-8 xl:row-span-2">
+  <figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
+    <blockquote class="text-gray-900">
+      <p>Wuih, BeliKado emang juara deh buat hampers. Isinya bervariasi, bingung mau pilih yang mana. Gak nyesel deh pesen di sini, bawaannya seneng terus!</p>
+    </blockquote>
+    <figcaption class="mt-6 flex items-center gap-x-4">
+      <img loading="lazy" class="h-10 w-10 rounded-full bg-gray-50" src="/src/assets/img/closeup-glamour-attractive-modern-asian-blond-girl-wear-wireless-white-earphones-smiling-pleased-lis_1258-57836.avif" alt="Larissa Putri">
+      <div>
+        <div class="font-semibold">Larissa Putri</div>
+        <div class="text-gray-600">@Larissa</div>
+      </div>
+    </figcaption>
+  </figure>
+</div>
+
+
+<div class="hover:-translate-y-2 duration-300 transition space-y-8 xl:row-span-2">
+  <figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
+    <blockquote class="text-gray-900">
+      <p>BeliKado itu joss abis! Gifting dan hampersnya bikin hati meleleh, pilihan barangnya keren. Gak nyangka bisa dapetin kado sehebat ini, makasih BeliKado!</p>
+    </blockquote>
+    <figcaption class="mt-6 flex items-center gap-x-4">
+      <img loading="lazy" class="h-10 w-10 rounded-full bg-gray-50" src="/src/assets/img/closeup-portrait-smiling-handsome-asian-man_1262-3728.avif" alt="Aditya Pratama">
+      <div>
+        <div class="font-semibold">Aditya Pratama</div>
+        <div class="text-gray-600">@Aditya</div>
+      </div>
+    </figcaption>
+  </figure>
+</div>
+
+
+
+
 
             </div>
 
@@ -52,34 +103,6 @@
 
 <script setup>
 import Hero from './Hero.vue';
-
-const testimonials = [
-  {
-    text: "Wah, gifting dari BeliKado tuh bikin hati aku meleleh banget! Hampersnya keren abis, banyaaak pilihannya. Gak nyesel deh pesen di sini!, Recommended banget...",
-    image: "/src/assets/img/expressive-asian-girl-posing-indoor_344912-1234.avif",
-    author: "Dewi Kartini",
-    username: "Dewi",
-  },
-  {
-    text: "BeliKado ini gokil banget, gifting dan hampersnya oke punya! Banyak pilihan barang unik, pokoknya recommended buat yang suka kado kreatif!",
-    image: "/src/assets/img/medium-shot-smiley-man-portrait_23-2149455852.avif",
-    author: "Ibrahim Surya",
-    username: "Ibrahim",
-  },
-  {
-    text: "Wuih, BeliKado emang juara deh buat hampers. Isinya bervariasi, bingung mau pilih yang mana. Gak nyesel deh pesen di sini, bawaannya seneng terus!",
-    image: "/src/assets/img/closeup-glamour-attractive-modern-asian-blond-girl-wear-wireless-white-earphones-smiling-pleased-lis_1258-57836.avif",
-    author: "Larissa Putri",
-    username: "Larissa",
-  },
-  {
-    text: "BeliKado itu joss abis! Gifting dan hampersnya bikin hati meleleh, pilihan barangnya keren. Gak nyangka bisa dapetin kado sehebat ini, makasih BeliKado!",
-    image: "/src/assets/img/closeup-portrait-smiling-handsome-asian-man_1262-3728.avif",
-    author: "Aditya Pratama",
-    username: "Aditya",
-  },
-  // Add more testimonials as needed
-];
 
 </script>
 
