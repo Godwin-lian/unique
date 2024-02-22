@@ -3,9 +3,9 @@
     <header class="sticky bg-slate-50 bg-opacity-60 text-slate-900 inset-x-0 top-0 z-50">
       <nav class="mx-auto flex max-w-7xl items-center justify-between lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
-          <a href="#" class="-m-1.5 p-4">
+          <a href="#" class="-m-1.5">
             <span class="sr-only">Unix</span>
-            <img class="h-14 w-auto" src="../assets/img/Unixue-logo.png" alt="unix-logo" />
+            <img class="h-20 w-auto" src="../assets/img/BeliKado-logo.png" alt="unix-logo" />
           </a>
         </div>
         <div class="flex lg:hidden">
